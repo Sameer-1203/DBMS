@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<style>
+    body{
+    background-image: url('wallhome.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;}
+    
+    .text{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-style: solid;
+    border: 5px;
+    border-color: white;}
+</style>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-2021.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <title>Vehicle Service management</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        
+        <form action="forgotpassword" method="post">
+
+        <div class="w3-card-8 w3-round w3-white w3-hover-shadow w3-animate-opacity w3-border-black" style="margin:auto; margin-top: 180px; padding:5px; width:27%;">
+            
+        
+            <div class="w3-card-4 w3-round w3-2021-french-blue w3-hover-shadow w3-center w3-border">
+
+                <header style="text-align:center;" class="w3-container w3-dark-grey">
+                <h4>Vehicle Service Management</h4>
+                </header>
+
+                <div class="w3-container w3-hover-shadow">
+                
+                    <input class="text" type="text" name="id" placeholder="Enter ID" required>
+                    
+                    <select class="text" name="question" required>
+                        <option value="" selected>Select your security question</option>
+                        <option value="name of your first motorcycle">What is the name of your first motorcycle?</option>
+                        <option value="model of your first car">What was the model of your first car?</option>
+                        <option value="childhood dream car">Which was your childhood dream car?</option>
+                        <option value="your next car">Which will be your next car?</option>
+                    </select>
+                    
+                    <input class="text" type="text" name="answer" placeholder="Enter your answer in one word" required>
+                    
+                    <button class="w3-button w3-block w3-green" type="submit" style="margin-bottom: 10px; margin-top: 5px;">Get password </button>
+                    <a href="mainpage.html"><button class="w3-button w3-block w3-red" type="button" style="margin-bottom: 10px; margin-top: 5px;">Cancel</button></a>
+                
+                </div>
+                
+            </div>
+            
+            
+        </div>
+    </form>
+        
+        
+        
+        
+        
+    </body>
+</html>
